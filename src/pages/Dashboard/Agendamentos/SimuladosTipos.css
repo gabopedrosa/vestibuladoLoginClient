@@ -1,0 +1,113 @@
+.containerCards{
+  background-color: #808080;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  position: absolute;
+  top: 0%;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333333;
+  padding: 4px;
+  z-index: 999;
+}
+
+.logo2 img {
+  position: relative;
+  left: 10px;
+  height: 50px;
+  filter: invert();
+  width: auto;
+}
+
+.navbar-links {
+  position: absolute;
+  margin-top: 20px;
+  left: 900px;
+  display: flex;
+  gap: 50px;
+}
+
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-links a:hover {
+  color: #afafaf;
+}
+
+
+.block1, .block2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.block1 {
+  margin-top: 58px;
+}
+section.card {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #06d7c5;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  max-height: 468px;
+  margin-left: 30px;
+  box-shadow: 0px 7px 10px #0e4e5b;
+  transition: 0.5s;
+}
+
+main.testes section.card:hover {
+  transform: scale3d(1.05, 1.05, 1.05);
+}
+
+main.testes section.card .icon {
+  width: 64px;
+  height: 50px;
+}
+
+main.testes section.card .tema {
+  width: 100%;
+}
+
+main.testes section.card h3 {
+  font-size: 45%;
+  margin-top: 15px;
+}
+
+main.testes section.card span {
+  font-size: 35%;
+  font-weight: 400;
+  height: 80px;
+  max-width: 300px;
+  margin: 30px 0 10px 0;
+}
+
+main.testes section.card button {
+  background: #0e4e5b;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-transform: capitalize;
+  border-radius: 30px;
+  border: 0;
+  cursor: pointer;
+  font-size: 30%;
+  font-weight: 500;
+  border: none;
+}
+
+main.testes section.card button:hover {
+  background-color: #0d6972;
+}

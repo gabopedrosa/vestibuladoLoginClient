@@ -72,7 +72,7 @@ const Login = ({setToken}) => {
         }
       })
       setToken(data)
-      navigate('/dashboard')
+      navigate('/simulados')
       
 
     } catch (error) {

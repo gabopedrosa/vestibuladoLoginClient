@@ -1,11 +1,11 @@
 import {useState, useEffect} from 'react';
 import './App.css'
 // Import das páginas
-import Dashboard from './pages/Dashboard/Dashboard';
+import Simulados from './pages/Dashboard/Simulados';
 import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
 import ForgotPassword from './pages/ForgotPassword/ForgotPassword';
-import Agendamentos from './pages/Dashboard/Agendamentos/Agendamentos';
+import SimuladosTipos from './pages/Dashboard/Agendamentos/SimuladosTipos';
 
 // React-Router-Dom
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -35,8 +35,8 @@ const App = () => {
           <Route path={'/'} element={<Login setToken={setToken}/>} />
           <Route path={'/register'} element={<Register />} />
           <Route path={'/forgotPassword'} element={<ForgotPassword />} />
-          {token?<Route path={'/dashboard'} element={<Dashboard token={token} />} />:""}
-          {token?<Route path={'/agendamentos'} element={<Agendamentos token={token} />} />:""}
+          {token?<Route path={'/simulados'} element={<Simulados token={token} />} />:""}
+          {token?<Route path={'/simulados-tipos'} element={<SimuladosTipos token={token} />} />:""}
         </Routes>
       </Router>
     </div>

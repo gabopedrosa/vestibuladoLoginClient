@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+
+.dashboard-title{
+  font-size: 45px;
+  font-weight: 800;
+}
+
+  .sidebar {
+    position: fixed;
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+    width: 200px;
+    z-index: 100;
+    transition: width 0.3s ease;
+    overflow-x: hidden;
+    height: 134vh;
+    }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 50px;
+  }
+
+  .sidebar-menu {
+    margin-top: 20px;
+  }
+  
+  
+  .sidebar-link {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    text-decoration: none; 
+  }
+  
+  .sidebar-link:hover {
+    color: #afafaf;
+    text-decoration: none;
+  }
+  
+  .sidebar-icon {
+    margin-right: 10px;
+  }
+  
+  .sidebar.closed .sidebar-icon {
+    margin-right: 8px;
+  }
+
+  .sidebar-menu-item {
+    margin-bottom: 100px;
+  }
+  
+  .sidebar-open {
+    width: 90px;
+    overflow-x: visible;
+  }
+  
+  .content {
+    text-align: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #808080;
+    color: #fff;
+    margin-left: 200px;
+  }
+
+div.block{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    min-height: 60vh;
+    align-items: center;
+    justify-content: center;
+}
+
+section.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #06d7c5;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    width: 380px;
+    height: 280px;
+    margin-left: 50px;
+    box-shadow: 0px 7px 10px #0e4e5b;
+    transition: 0.5s;
+}
+
+section.card:hover{
+    transform: scale3d(1.05, 1.05, 1.05);
+}
+
+section.card:first-child{
+    margin-left: 0;
+}
+
+/*
+main.simulados section.card .icon{
+    display: flex;
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+}
+*/
+
+section.card .tema{
+    width: 100%;
+}
+
+section.card h3{
+    font-size: 23px;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+    margin-top: 15px;
+}
+
+section.card span{
+    font-size: 15px;
+    font-weight: 600;
+    height: 80px;
+    max-width: 300px;
+    margin: 30px 0 10px 0;
+}
+
+section.card button{
+    background: #0e4e5b;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-transform: capitalize;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+}
+
+section.card button:hover{
+    background-color: #0d6972;
+}
+
+section.card .tema{
+  font-size: 3em;
+}
+  

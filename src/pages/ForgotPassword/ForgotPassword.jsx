@@ -3,9 +3,10 @@ import './ForgotPassword.css'
 import '../../App.css'
 import { Link, useNavigate } from 'react-router-dom'
 import video from '../../assets/video.mp4'
-import logo from '../../assets/logo.png'
+import reset from '../../assets/reset.png'
 import { supabase } from '../../supabaseClient'
 import Swal from 'sweetalert2'
+import { MdLockReset } from "react-icons/md";
 
 // Icons
 import {MdEmail, MdMarkEmailRead} from 'react-icons/md'
@@ -35,7 +36,7 @@ function ForgotPassword() {
 
       <div className="formDiv flex">
         <div className="headerDiv">
-          <img src={logo} alt="Logo IMG" />
+          <img src={reset} alt="Logo IMG" />
           <h3>Recuperação de senha</h3>
         </div>
 

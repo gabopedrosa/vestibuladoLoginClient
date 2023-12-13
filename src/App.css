@@ -102,7 +102,7 @@ img, video {
 }
 .loginPage .container, .registerPage .container {
   height: 75vh;
-  width: 60%;
+  width: 65%;
   margin: auto;
   justify-content: space-between;
   border-radius: 10px;
@@ -118,7 +118,6 @@ img, video {
   text-align: center;
   justify-content: center;
   flex-direction: column;
-  margin: auto;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -133,34 +132,34 @@ img, video {
   top: 0;
   bottom: 0%;
   right: 0;
-  left: 0%;
+  left: 0;
 }
 .loginPage .container .videoDiv .textDiv, .registerPage .container .videoDiv .textDiv {
   position: relative;
-  top: -36%;
+  top: -29%;
 }
 .loginPage .container .videoDiv .textDiv .title, .registerPage .container .videoDiv .textDiv .title {
   font-size: 35px;
   font-weight: 800;
-  color: #38a69d;
+  color: #0e4e5b;
 }
 .loginPage .container .videoDiv .textDiv p, .registerPage .container .videoDiv .textDiv p {
   color: var(--whiteColor);
   padding: 1rem;
   font-weight: 400;
-  color: #38a69d;
+  color: #0e4e5b;
 }
 .loginPage .container .videoDiv .textDivRegister, .registerPage .container .videoDiv .textDivRegister {
   position: relative;
   top: -35%;
 }
 .loginPage .container .videoDiv .textDivRegister .title, .registerPage .container .videoDiv .textDivRegister .title {
-  color: #38a69d;
+  color: #0e4e5b;
   font-size: 35px;
   font-weight: 800;
 }
 .loginPage .container .videoDiv .textDivRegister p, .registerPage .container .videoDiv .textDivRegister p {
-  color: #38a69d;
+  color: #0e4e5b;
   padding: 1rem;
   font-weight: 400;
 }
@@ -181,16 +180,16 @@ img, video {
   font-weight: 400;
 }
 .loginPage .container .videoDiv .footerDiv .btn, .registerPage .container .videoDiv .footerDiv .btn {
-  background: var(--whiteColor);
-  color: var(--primaryColor);
+  background: #0e4e5b;
+  color: var(--whiteColor);
   padding: 0.8rem 1.5;
   border-radius: 10px;
   font-weight: 400;
   transition: 0.3s ease;
 }
 .loginPage .container .videoDiv .footerDiv .btn:hover, .registerPage .container .videoDiv .footerDiv .btn:hover {
-  background: var(--paleYellow);
-  color: var(--blackColor);
+  background: #38a69d;
+  color: var(--whiteColor);
 }
 .loginPage .container .formDiv, .registerPage .container .formDiv {
   flex-basis: 50%;
@@ -208,8 +207,8 @@ img, video {
   padding-bottom: 0.5rem;
 }
 .loginPage .container .formDiv .headerDiv h3, .registerPage .container .formDiv .headerDiv h3 {
-  font-size: 25px;
-  color: var(--blackColor);
+  font-size: 30px;
+  color: #0e4e5b;
   font-weight: 600;
 }
 .loginPage .container .formDiv .form, .registerPage .container .formDiv .form {
@@ -241,7 +240,7 @@ img, video {
   padding: 0.8rem;
   border-radius: 10px;
   color: var(--whiteColor);
-  background-color: var(--blackColor);
+  background-color: #0e4e5b;
   align-items: center;
   justify-content: center;
   font-size: 16px;
@@ -254,12 +253,12 @@ img, video {
   transition: 0.3s ease;
 }
 .loginPage .container .formDiv .form .btn:hover, .registerPage .container .formDiv .form .btn:hover {
-  color: var(--blackColor);
+  color: var(--whiteColor);
   transform: translateX(10px);
-  background-color: var(--paleYellow);
+  background-color: #38a69d;
 }
 .loginPage .container .formDiv .form .btn:hover .icon, .registerPage .container .formDiv .form .btn:hover .icon {
-  color: var(--blackColor);
+  color: var(--whiteColor);
   transform: translateX(5px);
 }
 .loginPage .container .formDiv .form .forgotPassword, .registerPage .container .formDiv .form .forgotPassword {
