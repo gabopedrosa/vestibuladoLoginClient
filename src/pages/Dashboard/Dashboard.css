@@ -1,0 +1,164 @@
+.dashboard {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar-toggle.open {
+    transform: rotate(180deg);
+  }
+  
+  .container {
+    position: relative;
+    left: 50px;
+    width: 90%;
+    height: 80%;
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+  .sidebar {
+    position: fixed;
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+    width: 200px;
+    z-index: 100;
+    transition: width 0.3s ease;
+    overflow-x: hidden;
+    height: 134vh;
+    }
+  
+  
+  .sidebar-toggle {
+    position: fixed;
+    top: 0px;
+    right: 1320px;
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 22px;
+    cursor: pointer;
+    
+  }
+  
+  
+  .sidebar-open {
+    width: 100px;
+    overflow-x: visible;
+    
+  }
+  
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-link {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    text-decoration: none; 
+  }
+  
+  .sidebar-link:hover {
+    color: #afafaf;
+    text-decoration: none;
+  }
+  
+  .sidebar-icon {
+    margin-right: 10px;
+  }
+  .sidebar-icon-large {
+    position: relative;
+    left: 12px;
+    font-size: 24px; 
+  }
+  
+  .sidebar.closed .sidebar-icon {
+    margin-right: 8px;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #e0dede;
+    color: #fff;
+    margin-left: 200px;
+  }
+  
+  .sidebar-menu {
+    margin-top: 50px;
+  }
+  
+  .sidebar-menu-item {
+    margin-bottom: 100px;
+  }
+  
+  .sidebar-open {
+    width: 90px;
+    overflow-x: visible;
+  }
+  
+  .info-card {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .info-card h3 {
+    margin: 0;
+    
+  }
+  
+  .table {
+    margin-top: 20px;
+    
+  }
+  
+  .dashboard-title {
+    color: #000;
+    margin-top: 0;
+    position: relative;
+    padding-top: 20px;
+      
+  }
+  .dashboard-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    
+  }
+
+
+
+  
+  .logo img {
+    width: 100%; 
+    filter: invert();
+  }
+  
+  .logo-open img {
+    width: 110%; 
+  }
+  
+  .logo-closed img {
+    width: 80%; 
+  }
+  
+  .categoria-image {
+    position: relative;
+    left: 120px;
+    max-width: 210px;
+  }
+  
