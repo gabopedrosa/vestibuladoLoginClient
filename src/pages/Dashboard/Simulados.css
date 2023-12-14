@@ -152,12 +152,12 @@ section.card .tema{
 }
   
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 680px) {
   /* Estilos específicos para telas menores, como a do iPhone 7 em modo retrato */
 
   .dashboard-title{
     margin-top: 30px;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 800;
   }
 
