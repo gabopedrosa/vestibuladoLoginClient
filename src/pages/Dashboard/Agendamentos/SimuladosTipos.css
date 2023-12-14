@@ -122,7 +122,8 @@ main.testes section.card button:hover {
   /* Estilos específicos para telas menores, como a do iPhone 7 em modo retrato */
 
   .navbar h1{
-    margin-right: 110px;
+    font-size: 25px;
+    margin-right: 140px;
   }
 
   .block1, .block2{
@@ -131,7 +132,7 @@ main.testes section.card button:hover {
 
   .logo2 img {
     position: relative;
-    left: 10px;
+    left: 30px;
     height: 35px;
     filter: invert();
     width: auto;

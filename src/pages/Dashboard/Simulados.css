@@ -152,12 +152,12 @@ section.card .tema{
 }
   
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 750px) {
   /* Estilos específicos para telas menores, como a do iPhone 7 em modo retrato */
 
   .dashboard-title{
     margin-top: 30px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 800;
   }
 
@@ -179,10 +179,35 @@ section.card .tema{
   }
 
   div.block {
+    border: 1px solid black;
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
+
+  section.card{
+    width: 290px;
+    height: 220px;
+}
+
+section.card .tema{
+  width: 100%;
+}
+
+section.card h3{
+  font-size: 20px;
+}
+
+section.card span{
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+section.card button{
+  font-size: 10px;
+  margin-bottom: 10px;
+
+}
 
   section.card:first-child{
     margin-left: 25px;
