@@ -20,6 +20,7 @@ function SimuladosTipos() {
           <img src={arrow} alt="Logo" />
           </Link>
         </div>
+        <h1>Tipos de Prova</h1>
       </div>
 
       <div className='block1'>

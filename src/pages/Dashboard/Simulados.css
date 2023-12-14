@@ -65,8 +65,8 @@
     text-align: center;
     min-height: 100vh;
     padding: 20px;
-    background-color: #808080;
-    color: #fff;
+    background-color: #FFF5EE;
+    color: #333;
     margin-left: 200px;
   }
 
@@ -151,3 +151,40 @@ section.card .tema{
   font-size: 3em;
 }
   
+
+@media screen and (max-width: 750px) {
+  /* Estilos específicos para telas menores, como a do iPhone 7 em modo retrato */
+
+  .dashboard-title{
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: 800;
+  }
+
+  .sidebar {
+    position: relative;
+    width: 100%; /* Torna a barra lateral ocupando a largura completa */
+    height: 200px; /* Ajusta a altura automaticamente conforme o conteúdo */
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sidebar ul li {
+    margin-bottom: 20px;
+  }
+
+  .content {
+    margin-left: 0; /* Remove a margem à esquerda para ocupar a largura total */
+  }
+
+  div.block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  section.card:first-child{
+    margin-left: 25px;
+}
+}

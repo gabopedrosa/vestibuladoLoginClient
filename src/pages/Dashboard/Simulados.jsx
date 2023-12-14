@@ -23,8 +23,8 @@ const Simulados = ({ token }) => {
     <div>
 
       <div className="dashboard">
-        <aside className={`sidebar ${isSidebarOpen ? 'sidebar-open' : ''}`}>
-          <div className={`logo ${isSidebarOpen ? 'logo-open' : 'logo-closed'}`}>
+        <aside className="sidebar">
+          <div className="logo">
 
           </div>
           <nav>
