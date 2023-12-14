@@ -120,7 +120,7 @@ section.card h3{
     font-size: 23px;
     font-weight: 800;
     font-family: 'Inter', sans-serif;
-    margin-top: 15px;
+    margin-top: 2px;
 }
 
 section.card span{
@@ -157,7 +157,7 @@ section.card .tema{
 
   .dashboard-title{
     margin-top: 30px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 800;
   }
 
@@ -179,32 +179,31 @@ section.card .tema{
   }
 
   div.block {
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
 
   section.card{
-    width: 290px;
-    height: 220px;
+    width: 180px;
+    height: 150px;
 }
 
 section.card .tema{
-  width: 100%;
+  width: 80%;
 }
 
 section.card h3{
-  font-size: 20px;
+  font-size: 15px;
 }
 
 section.card span{
-  font-size: 12px;
-  margin-top: 10px;
+  font-size: 8px;
+  margin-top: 2px;
 }
 
 section.card button{
-  font-size: 10px;
+  font-size: 5px;
   margin-bottom: 10px;
 
 }

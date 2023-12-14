@@ -122,8 +122,9 @@ main.testes section.card button:hover {
   /* Estilos específicos para telas menores, como a do iPhone 7 em modo retrato */
 
   .navbar h1{
-    font-size: 25px;
-    margin-right: 140px;
+    font-size: 12px;
+    margin-right: 180px;
+    margin-top: 10px;
   }
 
   .block1, .block2{
@@ -132,10 +133,33 @@ main.testes section.card button:hover {
 
   .logo2 img {
     position: relative;
-    left: 30px;
-    height: 35px;
+    left: 180px;
+    height: 20px;
     filter: invert();
     width: auto;
+  }
+
+  section.card .tema{
+    width: 80%;
+  }
+  
+  section.card h3{
+    font-size: 12px;
+  }
+  
+  section.card span{
+    font-size: 6px;
+    margin-top: 2px;
+  }
+  
+  section.card button{
+    font-size: 5px;
+    margin-bottom: 10px;
+  
+  }
+  
+    section.card:first-child{
+      margin-left: 25px;
   }
   
 }
