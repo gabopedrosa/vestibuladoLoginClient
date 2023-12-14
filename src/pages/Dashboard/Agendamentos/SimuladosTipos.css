@@ -123,7 +123,7 @@ main.testes section.card button:hover {
 
   .navbar h1{
     font-size: 12px;
-    margin-right: 180px;
+    margin-right: 160px;
     margin-top: 10px;
   }
 
@@ -133,8 +133,8 @@ main.testes section.card button:hover {
 
   .logo2 img {
     position: relative;
-    left: 180px;
-    height: 20px;
+    left: 190px;
+    height: 18px;
     filter: invert();
     width: auto;
   }
